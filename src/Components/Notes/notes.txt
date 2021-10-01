@@ -1,0 +1,26 @@
+1. Action -> 
+Action are plain JavaScript object that have a type filed, Action only tell what to do, but they don't tell how to do
+
+1.1 Action Creator -> 
+Action Creator is a pure funtion which creates an Action
+
+2. Reducer ->
+Reducer are funtion that take the current state and an action as arguments, and return a new state result.
+
+3. Store -> 
+The Redux store brings together the state actions and reducer that make up your app.
+it's important to note that youill only have a single store in a Redux appliction.
+
+Every Redux store has a single root reducer funtion.
+
+
+
+Redux Principles ->
+
+single source of thruth -> The global state of your appliction is sotred as an object inside a single store
+
+state is Read-Only -> The only way to change the state is to dispatch an action
+
+Immutability, One-Way Data flow predictability of outcome
+
+Changes are Made with pure Reducer funtion.
