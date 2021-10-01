@@ -1,10 +1,11 @@
-export const incNumber = () => {
+export const Inc = (num) => {
   return {
     type: "Inc",
+    payload: num,
   };
 };
 
-export const decNumber = () => {
+export const Dec = () => {
   return {
     type: "Dec",
   };

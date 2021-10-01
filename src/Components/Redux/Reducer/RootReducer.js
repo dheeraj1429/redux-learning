@@ -1,8 +1,8 @@
 import { combineReducers } from "redux";
-import ChangeNumber from "./Reducer";
+import ChangeTheNumber from "./Reducer";
 
-const RootReducer = combineReducers({
-  ChangeNumber,
+const rootReducer = combineReducers({
+  ChangeTheNumber,
 });
 
-export default RootReducer;
+export default rootReducer;

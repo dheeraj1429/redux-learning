@@ -1,8 +1,8 @@
-const initialState = 0;
-const ChangeNumber = (state = initialState, action) => {
+const initalState = 10;
+const ChangeTheNumber = (state = initalState, action) => {
   switch (action.type) {
     case "Inc":
-      return state + 1;
+      return state + action.payload;
     case "Dec":
       return state - 1;
     default:
@@ -10,4 +10,4 @@ const ChangeNumber = (state = initialState, action) => {
   }
 };
 
-export default ChangeNumber;
+export default ChangeTheNumber;
